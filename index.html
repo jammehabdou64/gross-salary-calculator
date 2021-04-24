@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gross salary calculator</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Gross salary caculator</h1>
+      </nav>
+    </header>
+    <main>
+      <div class="result">
+        <div class="monthly-salary-result">Monthly Salary: <span></span></div>
+        <div class="yearly-salary-result">Yearly Salary: <span></span></div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h3>Monthly & Annual Gross Salary Calculator</h3>
+        </div>
+        <div class="card-body">
+          <div class="flex justify-between">
+            <p class="w-40">Basic Salary</p>
+            <p class="w-60"><input type="number" class="basic-salary" / ></p>
+          </div>
+          <div class="flex justify-between">
+            <p class="w-40">Transport Allowance</p>
+            <p class="w-60">
+              <input type="number" class="transport-allowance" / >
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <p class="w-40">Housing Allowance</p>
+            <p class="w-60">
+              <input type="number" class="housing-allowance" / >
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <p class="w-40">Taxable Allowance</p>
+            <p class="w-60">
+              <input type="number" class="taxable-allowance" / >
+            </p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button type="reset" class="reset-btn">Reset</button>
+          <button class="calculate-btn">Calculate</button>
+        </div>
+      </div>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
